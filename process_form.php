@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Prepare email
-    $to = "contactus@gmtherapeutics.com";  // Replace with your email address
+    $to = "contactus@gmtherapeutics.com";  
     $cc="shivam953647@gmail.com";
     $headers = "From: $email" . "\r\n" .
                "Reply-To: $email" . "\r\n" .
